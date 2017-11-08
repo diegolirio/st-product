@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: st-product
+  datasource:
+    driver-class-name: com.mongodb.Mongo
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      repositories:
+        enabled: true
+      database: product
+      password: product
+      username: product
+
+server:
+  port: 6001
+  
+eureka:
+  instance:
+    hostname: localhost
+    port: 5002
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
+  server:
+    wait-time-in-ms-when-sync-empty: 3000 
+    
