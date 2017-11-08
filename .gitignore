@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 64239f8bc1d187a507033dd22931ee47e555e3dd
@@ -30,6 +31,8 @@ nbdist/
 =======
 .nb-gradle/
 =======
+=======
+>>>>>>> cb05010b9a1dcf57882b0adc96a72a76b0f4846e
 # Compiled class file
 *.class
 
@@ -52,5 +55,8 @@ nbdist/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 >>>>>>> ae1ea0e069cd158842e283865e2cdf34a36271f8
 >>>>>>> 64239f8bc1d187a507033dd22931ee47e555e3dd
+=======
+>>>>>>> cb05010b9a1dcf57882b0adc96a72a76b0f4846e

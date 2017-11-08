@@ -4,21 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.diegolirio</groupId>
-<<<<<<< HEAD
 	<artifactId>st-product</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>st-product</name>
 	<description>ST Product</description>
-=======
-	<artifactId>st-zull-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
-
-	<name>st-zull-server</name>
-	<description>ST Zuul Server</description>
->>>>>>> 64239f8bc1d187a507033dd22931ee47e555e3dd
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -48,13 +39,6 @@
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 		<dependency>
-<<<<<<< HEAD
-=======
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-zuul</artifactId>
-		</dependency>
-		<dependency>
->>>>>>> 64239f8bc1d187a507033dd22931ee47e555e3dd
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
@@ -65,25 +49,19 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
-<<<<<<< HEAD
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-=======
->>>>>>> 64239f8bc1d187a507033dd22931ee47e555e3dd
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-<<<<<<< HEAD
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>		
-=======
->>>>>>> 64239f8bc1d187a507033dd22931ee47e555e3dd
 	</dependencies>
 
 	<dependencyManagement>
@@ -99,11 +77,7 @@
 	</dependencyManagement>
 
 	<build>
-<<<<<<< HEAD
 		<finalName>st-product-6001</finalName>
-=======
-		<finalName>st-zuul-server-5003</finalName>
->>>>>>> 64239f8bc1d187a507033dd22931ee47e555e3dd
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
