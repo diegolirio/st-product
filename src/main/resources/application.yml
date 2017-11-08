@@ -1,6 +1,5 @@
 spring:
   application:
-<<<<<<< HEAD
     name: st-product
   datasource:
     driver-class-name: com.mongodb.Mongo
@@ -16,16 +15,11 @@ spring:
 
 server:
   port: 6001
-=======
     name: st-zuul-server
 #  cloud:
 #    config:
 #      uri: http://localhost:5000
 
-server:
-  port: 5003
->>>>>>> 64239f8bc1d187a507033dd22931ee47e555e3dd
-  
 eureka:
   instance:
     hostname: localhost
@@ -36,9 +30,4 @@ eureka:
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
   server:
-<<<<<<< HEAD
     wait-time-in-ms-when-sync-empty: 3000 
-    
-=======
-    wait-time-in-ms-when-sync-empty: 3000 
->>>>>>> 64239f8bc1d187a507033dd22931ee47e555e3dd
