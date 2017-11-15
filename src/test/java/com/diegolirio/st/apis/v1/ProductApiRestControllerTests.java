@@ -49,10 +49,8 @@ public class ProductApiRestControllerTests {
 	
 	@Test
 	public void testSave() throws Exception {
-		ProductType productType = new ProductType();
-		productType.setId("1l");
-		productType.setDescription("Unidade");
-		Product product = new Product("541A", "TV", 2500.99, productType);
+		ProductType productType = ProductType.builder().id("1l").description("Unidade").build();
+		Product product = Product.builder().code("541A").description("TV").valueUnit(2500.99).productType(productType).active(true).build();
 		Product productSaved = save(product);
 		assertNotNull(productSaved.getId());
 	}

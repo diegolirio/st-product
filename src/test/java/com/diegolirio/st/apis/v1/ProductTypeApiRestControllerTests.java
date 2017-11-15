@@ -31,8 +31,7 @@ public class ProductTypeApiRestControllerTests {
 	
 	@Test
 	public void testSave() throws Exception {
-		ProductType productType = new ProductType();
-		productType.setDescription("Unidade");
+		ProductType productType = ProductType.builder().description("Unidade").build();
 		String json = objectMapper.writeValueAsString(productType);
 		String jsonSaved = mockMvc.perform(post(ProductTypeApiRestController.URL)
 												.accept(MediaType.APPLICATION_JSON_UTF8)
