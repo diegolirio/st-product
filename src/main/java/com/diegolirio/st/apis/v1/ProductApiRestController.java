@@ -16,8 +16,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.diegolirio.st.domain.orm.Product;
 import com.diegolirio.st.services.ProductService;
 
+import io.swagger.annotations.Api;
+
 @CrossOrigin
 @RestController
+@Api(value="ProductApi")
 @RequestMapping(ProductApiRestController.URL)
 public class ProductApiRestController {
 
