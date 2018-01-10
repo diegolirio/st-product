@@ -1,5 +1,6 @@
 package com.diegolirio.st.domain.orm;
 
+import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -13,7 +14,9 @@ public class Product {
 
 	@Id
 	private String id;
+	@NotBlank
 	private String code;
+	@NotBlank
 	private String description;
 	private double valueUnit;
 	private ProductType productType;

@@ -26,7 +26,7 @@ public class ProductApiRestController {
 	@Autowired
 	private ProductService productService;
 
-	@GetMapping("/code/{code}")
+	@GetMapping("/code/{code}") 
 	public ResponseEntity<Product> findByCodigo(@PathVariable("code") String code) {
 		return new ResponseEntity<Product>(this.productService.findByCode(code), HttpStatus.OK);
 	}
